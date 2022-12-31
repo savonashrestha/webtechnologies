@@ -55,27 +55,10 @@ figure {
   margin-top: 30px;
 }
 
-.button a {
-  display: inline-block;
-  padding: 10px 50px;
-  background: #aed7ea;
-  border-radius: 30px;
-  text-decoration: none;
-  color: black;
-  font-size: 26px;
-  line-height: 1.4;
-  font-weight: 800;
-  transition: all 0.5s ease;
-}
-
-.button a:hover {
-  background: black;
-  color: #aed7ea;
-}
-
 .date{
   margin-bottom: 5px;
 }
+
 .right-col, .left-col{
   width: 85%;
 }
