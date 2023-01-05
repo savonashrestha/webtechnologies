@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.flex-item img{
+    width: 410px;
+    height: 410px;
+}
+
+body{
+    background-color: #b19e8d;
+}
+
+.flex-item .text{
+    text-align: center;
+}
+
+
+@media(max-width:1024px) {
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main h1{
+        text-align: center;
+    }
+    
+}

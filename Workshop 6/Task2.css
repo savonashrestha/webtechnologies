@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main2 img{
+ width: 1115px;
+ height: 400px;
+}
+
+.main h1{
+    font-size: 60px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main h4{
+    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+@media(max-width:1024px) {
+    .main{
+        flex-direction: column;
+        text-align: center;
+    } 
+}
